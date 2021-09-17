@@ -1,0 +1,64 @@
+
+body{
+    margin: 20px auto;
+    width: 80%;
+    font-family: 'Montserrat', sans-serif;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.secondo, .terzo{
+    float: left;
+}
+header{
+    height: 100px;
+    background-color: #E579E6;
+}
+section{
+    height: 500px;
+    background-color: #E1D67A;
+    margin: 20px 0;
+    
+}
+/* background */
+.background{
+    background-color: #0186FF;
+}
+footer{
+    height: 70px;
+    background-color: #8801FE;
+    margin-top: 10px;
+}
+
+.secondo, .terzo, .quarto{
+    height: 600px;
+}
+
+.primo,.secondo, .terzo, .quarto{
+    background-color: #ABCFE7;
+}
+.primo{
+    height: 80px;
+    width: 100%;
+    margin-bottom: 20px;
+    
+}
+.secondo{
+    width: 20%;
+    margin-bottom: 20px;
+}
+.terzo{
+    width: 55.5%;
+    margin-left: 25px;
+}
+.quarto{
+    float: right;
+    width: 20%;
+}
