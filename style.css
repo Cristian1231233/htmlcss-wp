@@ -35,9 +35,6 @@ li a{
     clear: both;
 }
 
-header{
-    min-height: 100px;
-}
 
 section{
     height: 500px;
@@ -61,10 +58,7 @@ section .infor{
 section .p-white, section .infor{
     color: white;
 }
-/* background */
-.background{
-    min-height: 600px;
-}
+
 .primo h1{
     font-size: 37px;
 }
@@ -76,16 +70,10 @@ section .p-white, section .infor{
     float: left;
 }
 
-
-.secondo, .terzo, .quarto{
-    min-height: 600px;
-}
-
 .primo, .secondo{
     margin-bottom: 20px;
 }
 .primo{
-    min-height: 80px;
     width: 100%;
 }
 .secondo{
@@ -126,12 +114,11 @@ p{
 }
 
 footer{
-    height: 70px;
     margin-top: 10px;
     text-align: center;
-    line-height: 70px;
 }
 footer span{
     color: red;
     font-size: 28px;
+    padding-bottom: 20px;
 }
