@@ -1,14 +1,33 @@
 
 body{
-    margin: 20px auto;
-    width: 80%;
+    margin:0 auto;
+    width: 90%;
+    font-family: 'Montserrat', sans-serif;
 }
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+.logo{
+    width: 190px;
+    border-right: 1px solid #E5E5E5;
+    padding-right: 20px;
+}
+.logo-neori{
+    width: 100%;
+}
 
+.lista-menu li{
+    list-style: none;
+    display: inline-block;
+    padding-top: 40px;
+    margin-right: 10px;
+}
+li a{
+    text-decoration: none;
+    color: #868686;
+}
 .clearfix::after{
     content: "";
     display: table;
@@ -17,38 +36,53 @@ body{
 
 header{
     min-height: 100px;
-    background-color: #E579E6;
 }
 
 section{
     height: 500px;
-    background-color: #E1D67A;
+    background-image: url(../img/banner.jpg);
     margin: 20px 0;
+    background-position: center;
+    border-radius: 10px;
     
+}
+section .contain{
+    padding-left: 60px;
+}
+section .infor{
+    color: white;
+    padding-top: 302px;
+    font-size: 32px;
+}
+section .p-white{
+    color: white;
 }
 /* background */
 .background{
     background-color: #0186FF;
     min-height: 600px;
 }
+.primo h1{
+    font-size: 37px;
+}
+.primo div{
+    color: grey;
+    padding-top: 3px;
+}
 .secondo, .terzo{
     float: left;
 }
-footer{
-    height: 70px;
-    background-color: #8801FE;
-    margin-top: 10px;
-}
+
+
 
 .secondo, .terzo, .quarto{
-    height: 600px;
-}
-
-.primo,.secondo, .terzo, .quarto{
+    min-height: 600px;
     background-color: #ABCFE7;
 }
+
+
 .primo{
-    height: 80px;
+    min-height: 80px;
     width: 100%;
     margin-bottom: 20px;
     
@@ -57,6 +91,36 @@ footer{
     width: 20%;
     margin-bottom: 20px;
 }
+.image1{
+     width: 100%;
+     height: 200px;
+     background-image: url(../img/img-1.jpg);
+     background-position: center;
+     border-radius: 10px;
+}
+
+.titoletto{
+    padding: 10px 0;
+}
+p{
+    color: gray;
+}
+.image2{
+    width: 100%;
+    height: 200px;
+    background-image: url(../img/banner-2.jpg);
+    background-position: center;
+    background-size: 632px;
+    border-radius: 10px;
+}
+.image3{
+    width: 100%;
+    height: 200px;
+    background-image: url(../img/img-3.jpg);
+    background-position: center;
+    border-radius: 10px;
+}
+
 .terzo{
     width: 55.5%;
     margin-left: 25px;
@@ -64,4 +128,15 @@ footer{
 .quarto{
     float: right;
     width: 20%;
+}
+
+footer{
+    height: 70px;
+    margin-top: 10px;
+    text-align: center;
+    line-height: 70px;
+}
+footer span{
+    color: red;
+    font-size: 28px;
 }
