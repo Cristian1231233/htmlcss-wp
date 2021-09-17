@@ -47,27 +47,21 @@ section{
     border-radius: 10px;
 }
 
-.opacity{
-    width: 100%;
-    height: 100%;
-    background-color: gray;
-    opacity: 0.3;
-    border-radius: 10px;
-}
+
+
 section .contain{
     padding-left: 60px;
 }
 section .infor{
-    color: white;
     padding-top: 302px;
     font-size: 32px;
 }
-section .p-white{
+
+section .p-white, section .infor{
     color: white;
 }
 /* background */
 .background{
-    background-color: #0186FF;
     min-height: 600px;
 }
 .primo h1{
@@ -82,29 +76,29 @@ section .p-white{
 }
 
 
-
 .secondo, .terzo, .quarto{
     min-height: 600px;
-    background-color: #ABCFE7;
 }
 
-
+.primo, .secondo{
+    margin-bottom: 20px;
+}
 .primo{
     min-height: 80px;
     width: 100%;
-    margin-bottom: 20px;
-    
 }
 .secondo{
     width: 20%;
-    margin-bottom: 20px;
+}
+
+.image1, .image2, .image3{
+    width: 100%;
+    height: 200px;
+    background-position: center;
+    border-radius: 10px;
 }
 .image1{
-     width: 100%;
-     height: 200px;
      background-image: url(../img/img-1.jpg);
-     background-position: center;
-     border-radius: 10px;
 }
 
 .titoletto{
@@ -114,19 +108,11 @@ p{
     color: gray;
 }
 .image2{
-    width: 100%;
-    height: 200px;
     background-image: url(../img/banner-2.jpg);
-    background-position: center;
     background-size: 632px;
-    border-radius: 10px;
 }
 .image3{
-    width: 100%;
-    height: 200px;
     background-image: url(../img/img-3.jpg);
-    background-position: center;
-    border-radius: 10px;
 }
 
 .terzo{
